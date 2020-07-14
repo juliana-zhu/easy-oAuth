@@ -5,13 +5,11 @@ import {terser} from 'rollup-plugin-terser';
 import {eslint} from 'rollup-plugin-eslint';
 import json from 'rollup-plugin-json';
 
-
-
 const isDev = process.env.NODE_ENV !== 'production';
 
 export default [
     {
-        input: 'src/main.js',
+        input: 'lib/index.js',
         output: [
             {file: 'dist/oauth.cjs.js', format: 'cjs'},
             {file: 'dist/oauth.esm.js', format: 'es'},

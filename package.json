@@ -1,8 +1,8 @@
 {
-  "name": "@juliana/oauth",
-  "version": "1.0.0",
+  "name": "@juliana_mewo/oauth",
+  "version": "1.0.1",
   "description": "easy-oauth",
-  "main": "dist/tool.cjs.js",
+  "main": "lib/index.js",
   "module": "dist/time.esm.js",
   "browser": "dist/time.umd.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "oauth"
   ],
-  "author": "Juliana",
+  "author": "408934141@qq.com",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.10.4",
