@@ -1,10 +1,9 @@
 {
   "name": "@juliana_mewo/oauth",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "easy-oauth",
   "main": "lib/index.js",
-  "module": "dist/time.esm.js",
-  "browser": "dist/time.umd.js",
+  "private": false,
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "dev": "rollup -c -w",
@@ -15,7 +14,7 @@
   ],
   "author": "408934141@qq.com",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/plugin-transform-runtime": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
@@ -31,5 +30,9 @@
     "axios": "^0.19.2",
     "js-cookie": "^2.2.1",
     "qs": "^6.9.4"
-  }
+  },
+  "files": [
+    "lib",
+    "dist"
+  ]
 }
